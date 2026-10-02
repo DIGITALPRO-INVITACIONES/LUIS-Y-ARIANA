@@ -4,3 +4,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal.waiting{opacity:1;transform:none}#sparkles{display:none}}
 
 .hero h1:focus{outline:none}
+
+#flight-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:16}.conteo-artists{margin:30px auto 35px}.conteo-artists .artist img{height:240px}.conteo-artists .artist>span{font-size:17px}@media(max-width:600px){.conteo-artists .artist img{height:auto;max-height:350px}}@media(prefers-reduced-motion:reduce){#flight-canvas{display:none}}
