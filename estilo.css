@@ -6,3 +6,19 @@
 .hero h1:focus{outline:none}
 
 #flight-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:16}.conteo-artists{margin:30px auto 35px}.conteo-artists .artist img{height:240px}.conteo-artists .artist>span{font-size:17px}@media(max-width:600px){.conteo-artists .artist img{height:auto;max-height:350px}}@media(prefers-reduced-motion:reduce){#flight-canvas{display:none}}
+/* Acabados: retrato completo, subtítulos y llamadas a la acción. */
+.ring-photo{padding:0;background:transparent;border:0;box-shadow:none;transform:none;max-width:440px}
+.ring-photo img{aspect-ratio:1;object-fit:contain;border-radius:8px}
+.ring-photo figcaption{padding-top:20px}
+.family h3:not(.children-names){font:clamp(34px,5vw,43px)/1.25 var(--script);color:var(--forest)}
+.hero-label{font:38px/1.3 var(--script)}
+.count-title{font:33px/1.3 var(--script);color:var(--forest)}
+.location-button{font:600 14px/1.5 Arial,sans-serif;min-height:56px;padding:16px 22px;margin:14px 0 6px;border:2px solid var(--gold);border-radius:8px;box-shadow:0 5px 0 #0c241d,0 8px 15px #102b2520;gap:10px;text-align:center}
+.location-button::before{content:'↗';font-size:23px;line-height:1}
+.location-button:hover{background:#315c48;box-shadow:0 5px 0 #0c241d,0 10px 20px #102b2530}
+.credit{padding-top:30px;font:15px/1.7 Arial,sans-serif;color:#e6dac0}
+.credit strong{display:block;font-size:27px;font-weight:700;color:#ecd496;letter-spacing:.03em}
+.credit a{display:inline-flex;flex-direction:column;gap:5px;margin-top:12px;padding:15px 24px;border:1px solid #b69858;border-radius:8px;background:#244c3e;color:#fff2d2;font-size:14px}
+.credit a span{font-size:19px;font-weight:700}
+.credit a:hover{background:#315c48}
+@media(max-width:600px){.hero-label{font-size:34px}.location-button{width:100%;padding-inline:14px}.credit{padding-bottom:35px}.credit a{max-width:100%}}
