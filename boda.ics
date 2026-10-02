@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:luis-ariana-20261024@digitalpro-invitaciones
 DTSTAMP:20261002T010000Z
-DTSTART:20261024T140000Z
+DTSTART:20261024T133000Z
 SUMMARY:Boda de Luis y Ariana
 LOCATION:Iglesia de la Inmaculada Concepcion de Laja\, Bolivia
-DESCRIPTION:Ceremonia a las 10:00 hora de Bolivia. Pueden llegar antes
+DESCRIPTION:Ceremonia a las 09:30 hora de Bolivia. Pueden llegar antes
   para compartir la sesion de fotos. Recepcion: Salon 100x100 Bolivia.
 END:VEVENT
 END:VCALENDAR
